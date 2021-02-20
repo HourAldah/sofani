@@ -1,0 +1,29 @@
+/*
+Theme Name : yolotheme
+Theme Coder : Hour Aldahrouj
+PSD Designer :
+FirstColor : #333333
+SecondColor : #ffbf00
+*/
+
+/*Start Upper Bar */
+
+.upper-bar{
+    background-color: #333333;
+    color: #fff;
+    padding: 5px;
+}
+
+.iconColor
+{
+    color: #ffbf00; 
+    padding: 1px;
+}
+
+
+/*End Upper Bar */
+.logo
+{
+    color: #fff; 
+    padding: 10px;
+}
