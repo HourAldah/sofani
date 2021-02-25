@@ -7,23 +7,31 @@ SecondColor : #ffbf00
 */
 
 /*Start Upper Bar */
-
 .upper-bar{
     background-color: #333333;
     color: #fff;
     padding: 5px;
 }
-
 .iconColor
 {
     color: #ffbf00; 
     padding: 1px;
 }
-
-
 /*End Upper Bar */
-.logo
+
+
+/*Start NavBar */ 
+.sofani-logo
 {
     color: #fff; 
+    border: #fff;
     padding: 10px;
 }
+/*End NavBarr */
+
+/*Start Slider */ 
+.slider
+{
+    background-color: #ddd;
+}
+/*End Slider */ 
