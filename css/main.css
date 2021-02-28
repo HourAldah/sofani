@@ -17,6 +17,7 @@ SecondColor : #ffbf00
     color: #ffbf00; 
     padding: 1px;
 }
+
 /*End Upper Bar */
 
 
@@ -39,6 +40,11 @@ SecondColor : #ffbf00
 .navbar
 {
     background-color: #333333;
+}
+.naviconColornav
+{
+    color: #ffffff; 
+    margin:10px;
 }
 /*End NavBarr */
 
