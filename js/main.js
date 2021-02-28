@@ -4,5 +4,5 @@ $(function () {
      var winH = $(window).height(),
         ipperH = $('.upper-bar').innerHeight(),  
           navH = $('.navbar').innerHeight();
-     $('.slider').height(winH-(ipperH + navH));
+     $('.one-time').innerHeight(winH-(ipperH + navH));
     });
