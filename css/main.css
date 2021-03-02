@@ -27,7 +27,7 @@ SecondColor : #ffbf00
     padding-left: 25px;
   
 }
-.nav-link
+.nav-link-navbar 
 {
     color: #fff; 
     border: #fff;
@@ -40,6 +40,7 @@ SecondColor : #ffbf00
 .navbar
 {
     background-color: #333333;
+
 }
 .naviconColornav
 {
@@ -82,3 +83,16 @@ SecondColor : #ffbf00
     letter-spacing:normal;
 }
 /*newcollection*/
+
+
+/*filter*/
+.nav {
+    margin:10px;
+    text-align: center;
+    margin-bottom: 45px;
+
+}
+.nav-lin-filter {
+    color: #3f3f3f;
+}
+/*filter*/
