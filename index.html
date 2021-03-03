@@ -17,26 +17,20 @@
 <body>
    <!--start Upper Bar-->
    <div class="upper-bar">
-    <div class=" container ">
+    <div class=" container-fluid ">
       <div class="row">
-      
-        <div class="col-12 col-md-8 d-flex justify-content-start">
-        <div class=" container ">
-        <div class="row ">
           <div class="col-md-auto"> <i class="far fa-envelope iconColor"></i><small> companymail@gmail.com </small></div>	
           <div class="col-md-auto"><i class="fas fa-mobile-alt iconColor"></i> <small>(+84)0123 456 789</small></div>		
           <div class="col-md-auto"><i class="far fa-clock iconColor"></i><small> Mon - Fri: 9.00 - 17.00</small></div>
-      	</div>
-        </div>
-        </div>
-        <div class="col-6 col-md-4 d-flex justify-content-end">
+          <div class="col"></div>
+          <div class="col-md-auto d-flex ">
           <input type="search"   placeholder="Search products&hellip;" value="" name="s" />
 	        <button type="submit" value="Search"><i class="fa fa-search"></i></button>
 	        <input type="hidden" name="post_type" value="product" />
         </div>
       </div>
     </div>
-   </div>
+  </div>
    <!--End Upper Bar-->
 
    <!--start Navbar-->
@@ -44,7 +38,7 @@
     <div class="container-fluid">
     <!-- Brand -->
     <a class="navbar-brand"  href="#" >
-     <img src="img/logo-2.png">
+     <img class="img-fluid" src="img/logo-2.png">
     </a>
   
     <!-- Toggler/collapsibe Button -->
@@ -56,7 +50,7 @@
     <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
       <ul class="navbar-nav">
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link nav-link-navbar dropdown-toggle " href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
            Home
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -77,7 +71,7 @@
           </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link nav-link-navbar dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Shop
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -87,7 +81,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link nav-link-navbar dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Blog
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -97,7 +91,7 @@
           </div>
         </li>
         <li class="nav-item">
-           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           <a class="nav-link nav-link-navbar dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Portfolio
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -107,7 +101,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link nav-link-navbar dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Pages
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -133,47 +127,74 @@
 
    <!--start cards-->
    
-   <div class="container cards-container ">
+   <div class="container  ">
      <div class="row ">
-
     <div class="col-sm-3">
-      <div class="banner-content">
-        <h3 >Interior</h3>
-        <img width="277" height="600" src="img/interior-1-1.jpg" alt="Interior">
+      <div style=" position: relative;">
+        <img  src="img/interior-1-1.jpg" alt="Interior">
+        <div style="position: absolute; top:7px; left: 7px;">
+          <a >
+            <div style="background-color:#84deee;opacity:0.5;width:35px; height:35px;">
+            <h3 style="color: white"> Interior</h3>
+          </div>
+        </a>
+        </div>
       </div>
     </div>
     <div class="col-sm-9">
 
       <div class="row">
       <div class="col-sm-8">
-       <div class="banner-content ">
-         <h3 >Decoration</h3>
-         <img width="570" height="277" src="img/Decoration-2.jpg" alt="Decoration">
+        <div style=" position: relative;">
+          <img class="img-fluid" src="img/Decoration-2.jpg" alt="Decoration">
+         <div style="position: absolute; top:7px; left: 7px;">
+          <a >
+            <div style="background-color:#df8888;opacity:0.5;width:35px; height:35px;">
+            <h3 style="color: white;"> Decoration</h3>
+          </div>
+        </a>
+        </div>
        </div>
       </div>
       <div class="col-sm-4">  
-      <div class="banner-content">
-        <h3 class="banner-title">Chair</h3>
-        <img width="277" height="285" src="img/Chair-1.jpg" alt="Chair">
+       <div style=" position: relative;">
+        <img class="img-fluid" src="img/Chair-1.jpg" alt="Chair">
+        <div style="position: absolute; top:7px; left: 7px;">
+          <a >
+            <div style="background-color:#84deee;opacity:0.5;width:35px; height:35px;">
+            <h3 style="color: white;"> Chair</h3>
+          </div>
+         </a>
+        </div>
       </div>
       </div>
       </div>
       
       <div class="row">
       <div class="col-sm-4">
-      <div class="banner-content">
-        <h3 class="banner-title">Sofa</h3>
-        <img width="277" height="285" src="img/Sofa-copy.jpg" alt="Sofa">
+        <div style=" position: relative;">
+        <img class="img-fluid" src="img/Sofa-copy.jpg" alt="Sofa">
+        <div style="position: absolute; top:7px; left: 7px;">
+          <a >
+            <div style="background-color:#e3c56b;opacity:0.5;width:35px; height:35px;">
+            <h3 style="color: white;"> Sofa</h3>
+          </div>
+         </a>
+        </div>
       </div>
       </div>
       <div class="col-sm-8">
-      <div class="banner-content">
-         <h3 class="banner-title">Funiture</h3>
-         <img width="570" height="277" src="img/furniture-1-1.jpg" alt="Funiture">
+        <div style=" position: relative;">
+         <img class="img-fluid" src="img/furniture-1-1.jpg" alt="Funiture">
+         <div style="position: absolute; top:7px; left: 7px;">
+          <a >
+         <div style="background-color: aqua;opacity:0.5;width:35px; height:35px;">
+          <h3 style="color: white;"> Funiture</h3>
+        </div>
+       </a>
       </div>
       </div>
       </div>
-
       </div>
       </div>
       </div>
@@ -194,27 +215,27 @@
             <ul class="nav justify-content-center">
               <li class="nav-item">
                 <a class="nav-link active nav-lin-filter" href="#">
-                  <p class="font-weight-bold">Chair</p>
+                  <p class="font-weight-bold">CHAIR</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link nav-lin-filter" href="#">
-                  <p class="font-weight-bold">Decoration</p>
+                  <p class="font-weight-bold">DECORATION</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link nav-lin-filter" href="#">
-                  <p class="font-weight-bold">Essential</p>
+                  <p class="font-weight-bold">ESSENTIAL</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link nav-lin-filter" href="#">
-                  <p class="font-weight-bold">Lamp</p>
+                  <p class="font-weight-bold">LAMP</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link nav-lin-filter" href="#">
-                  <p class="font-weight-bold">Sofas</p>
+                  <p class="font-weight-bold">SOFAS</p>
                 </a>
               </li>
             </ul>
