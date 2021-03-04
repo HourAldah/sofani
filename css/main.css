@@ -39,6 +39,7 @@ SecondColor : #ffbf00
   }
 .navbar
 {
+ 
     background-color: #333333;
 
 }
@@ -97,6 +98,7 @@ SecondColor : #ffbf00
 .nc
 {
     text-align: center;
+    padding-top: 10px;
 }
 .nch2
 {
