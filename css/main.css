@@ -105,7 +105,7 @@ SecondColor : #ffbf00
     color: #3f3f3f;
     letter-spacing:normal;
 }
-/*newcollection*/
+
 
 
 /*filter*/
@@ -119,3 +119,13 @@ SecondColor : #ffbf00
     color: #3f3f3f;
 }
 /*filter*/
+
+.overlay-bg-nc {
+    align-items: start;
+    background-color:#252829;
+    opacity: 0.8;
+    width: 50%;
+    height: 100% ;
+    position: absolute;
+}
+/*newcollection*/
