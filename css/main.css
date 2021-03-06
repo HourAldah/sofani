@@ -27,6 +27,7 @@ SecondColor : #ffbf00
 }
 
 /*Start NavBar */ 
+
 .nav-item
 {
     padding-left: 25px;
@@ -39,12 +40,13 @@ SecondColor : #ffbf00
     padding: 20px;
   
 }
+
 .nav-link:hover {
     color:#ffbf00;
   }
+  
 .navbar
 {
- 
     background-color: #333333;
 
 }
@@ -149,3 +151,9 @@ SecondColor : #ffbf00
     text-align: center;
 }
 /*newcollection*/
+
+.img-fluid
+{
+ max-width: 100%;
+  width:100%;
+}

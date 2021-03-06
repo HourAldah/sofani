@@ -39,7 +39,7 @@
 
 
   <!--start Navbar-->
-
+  <header>
   <nav class="navbar navbar-expand-md navbar-fixed-top ">
     <div class="container-fluid">
     <!-- Brand -->
@@ -122,7 +122,7 @@
     <i class="naviconColornav far fa-heart"></i>
    </div>
   </nav>
-
+</header>
   <!--End Navbar-->
 
   <div class="entry-content">
@@ -131,7 +131,7 @@
   <!--start slider-->
 
   <div class="one-time">
-    <div><img class="one-time d-block w-100" src="img/phillip.jpg" alt="Second slide"></div>
+    <div><img class="one-time d-block w-100" src="img/phillip.jpg" alt="first slide"></div>
     <div><img class="one-time d-block w-100" src="img/nathan.jpg" alt="Second slide"></div>
   </div>
 
@@ -141,25 +141,26 @@
   <div class="full-width-row">  
   <!--start cards-->
 
-   <div class="container">
+   <div class="container-fluid">
      <div class="row ">
     <div class="col-sm-3">
       <div class="banner-mg">
       <div class="banner-div">
         <h3 class="banner-titel"> Interior</h3>
         <div class="overlay-bg" style="background-color:#84deee;"></div>
-        <img  src="img/interior-1-1.jpg" alt="Interior">
+        <img class="img-fluid" src="img/interior-1-1.jpg" alt="Interior">
       </div>
     </div>
     </div>
     <div class="col-sm-9">
-      <div class="row" style="vertical-align: top;" >
+      <div class="row"  >
       <div class="col-sm-8">
         <div class="banner-mg">
         <div class="banner-div">
+        <img class="img-fluid" src="img/Decoration-2.jpg" alt="Decoration">
+
           <h3 class="banner-titel"> Decoration</h3>
           <div class="overlay-bg" style="background-color:#df8888;"></div>
-          <img class="img-fluid" src="img/Decoration-2.jpg" alt="Decoration">
        </div>
       </div>
       </div>
@@ -174,7 +175,7 @@
       </div>
       </div>
       
-      <div class="row "  style="vertical-align: top;" >
+      <div class="row "  >
       <div class="col-sm-4">
         <div class="banner-mg">
         <div class="banner-div">
@@ -203,7 +204,7 @@
   <div class="full-width-row">
  <!--newcollection-->
   
-   <div class="container-fluid nc">
+   <div class="container-fluid nc pt-5">
     <h2 class="nch2">NEW COLLECTION</h2>
 
 		<img width="69" height="13" src="img/Line.png" class="vc_single_image-img attachment-full" alt="" loading="lazy" />
@@ -243,14 +244,18 @@
         </div>
       </div>
     </div>
-    <div class="row row-cols-1 row-cols-md-5 g-4">
+    <div class="row row-cols-1 row-cols-lg-5 row-cols-md-4 row-cols-sm-2 g-4">
     <div class="col">
       <div class="card">
         <img src="img/11-300x400.jpg" class="card-img-top" >
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text"></p>
-        </div>
+          <div class="product-info">
+            
+            <div class="star-rating " title="Not yet rated"><span style="width:0%"><strong class="rating">0</strong> out of 5</span></div>
+            <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>139.00</bdi></span></span>
+          <a href="http://demo.yolotheme.com/sofani/product/ottoman-chair/" ><h3>Ottoman Chair</h3></a>        </div>
+                  
+              </div>
         <div class="card-footer">
           <small class="text-muted"></small>
         </div>
@@ -425,42 +430,8 @@
 
 		<img width="69" height="13" src="img/Line.png" class="vc_single_image-img attachment-full" alt="" loading="lazy" />
 
-    <div class=" " >
-      <div class="container">
-        <div class="row">
-          <div class="container-fluid">
-            <ul class="nav justify-content-center">
-              <li class="nav-item">
-                <a class="nav-link active nav-lin-filter" href="#">
-                  <p class="font-weight-bold">CHAIR</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link nav-lin-filter" href="#">
-                  <p class="font-weight-bold">DECORATION</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link nav-lin-filter" href="#">
-                  <p class="font-weight-bold">ESSENTIAL</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link nav-lin-filter" href="#">
-                  <p class="font-weight-bold">LAMP</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link nav-lin-filter" href="#">
-                  <p class="font-weight-bold">SOFAS</p>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row row-cols-1 row-cols-md-5 g-4">
+   
+    <div class="row row-cols-1 row-cols-lg-5 row-cols-md-4 row-cols-sm-2 g-4">
     <div class="col">
       <div class="card">
         <img src="img/11-300x400.jpg" class="card-img-top" >
@@ -587,6 +558,32 @@
   <!--DEALS THIS WEEK-->
   </div>
 
+  <div class="full-width-row">
+   <!--start THE BLOG--> 
+   <div class="container-fluid nc pt-5">
+    <h2 class="nch2">THE BLOG</h2>
+		<img width="69" height="13" src="img/Line.png" class="vc_single_image-img attachment-full" alt="" loading="lazy" />
+    <div class="blog-slider pt-2">
+    <div>
+      <div class="banner-mg"> 
+        <div class="banner-div">
+         <h3 class="banner-titel"> Chair</h3>
+         <div class="overlay-bg" style="background-color:#84deee;"> </div>
+         <img class="one-time d-block w-100" src="img/thumbnail-01.jpg" alt="first slide">
+       </div>
+     </div>
+      </div>
+    <div><img class="one-time d-block w-100 " src="img/thumbnail-02-1.jpg" alt="Second slide"></div>
+    <div><img class="one-time d-block w-100" src=" img/thumbnail-04.jpg" alt="first slide"></div>
+    <div><img class="one-time d-block w-100" src="img/thumbnail-blog-3-column-9.jpg" alt="Second slide"></div>
+  </div>
+   
+   
+  </div>
+
+   <!--End THE BLOG--> 
+  </div>
+
   </div> 
 
 </div>
@@ -605,6 +602,15 @@
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplaySpeed: 3000,
+       });
+     });
+     $(document).ready(function(){
+       $('.blog-slider').slick({
+        infinite: true,
+        autoplay: true,
+        slidesToShow:3,
+        slidesToScroll: 1,
+        autoplaySpeed: 4000,
        });
      });
    </script>
