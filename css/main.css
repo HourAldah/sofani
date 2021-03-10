@@ -157,3 +157,127 @@ SecondColor : #ffbf00
  max-width: 100%;
   width:100%;
 }
+.overlay-bg-blog
+{   
+    z-index: 2;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+}
+.slider-item
+{
+    padding:15px; 
+    position: relative; 
+    overflow: hidden;
+}
+.item-height
+{
+    height: 500px;
+}
+.img-blog-slider
+{
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.post-contint
+{
+    z-index: 2;
+    width: 90%;
+    padding: 30px;
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.post-content
+{
+    z-index: 2;
+    width: 90%;
+    padding: 30px;
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.email-input
+{
+    padding: 0 30px;
+    padding-right: 45px;
+    height: 50px;
+    width: 70%;
+    border-top: 1px solid #404040;
+    border-bottom: 1px solid #404040;
+}
+.email-btn
+{
+    background-color: #404040;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 30px;
+    margin-top:  30px;
+    border: none;
+    padding: 10px 25px;
+}
+.blog-slider
+{
+    padding-bottom:30px;
+}
+.new-sletter-icon
+{
+    float: left;
+    font-size: 35px;
+    line-height: 0;
+}
+.new-sletter-content
+{
+    margin-left: 65px;
+}
+.icon-title
+{
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+    font-size: 19px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.icon-description
+{
+    color: rgb(167, 163, 163);
+}
+.social-footer
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.social-icons
+{
+    display: inline-flex;
+    padding: 0;
+    margin-top: 30px;
+
+ 
+    
+
+}
+.wh-icon
+{
+    color:#fff;
+    display: block;
+    margin: 0 20px;
+
+}
+.footer-icon
+{
+    color: #686969;
+    margin-right:10px;
+}
