@@ -256,7 +256,7 @@ body
 }
 .description-slider2
 {
-    width: 60% ;
+    
     font-family: Raleway;
     color: rgb(255, 255, 255);
     letter-spacing: 1px;
@@ -270,10 +270,12 @@ body
 }
 .btn-slider
 {
-    left: 35px;
+    vertical-align: bottom;
     background-color: rgb(17, 17, 17);
     font-family: Roboto;
     cursor: pointer;
+    float:left;
+    display: flex;
     box-sizing: border-box;
     color: rgb(255, 255, 255);
     white-space: nowrap;
@@ -303,7 +305,7 @@ body
     left: 35px;
     top: 120px;
     z-index: 2;
-    width: 100%;
+    width: 60%;
     height: 100%;
     padding: 30px;
     position: absolute;
