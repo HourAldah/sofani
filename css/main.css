@@ -5,12 +5,21 @@ PSD Designer :
 FirstColor : #333333
 SecondColor : #ffbf00
 */
+body
+{
+    overflow-x: hidden;
+}
 
 /*Start Upper Bar */
 .upper-bar{
-    background-color: #333333;
+    background-color: #333333 ;
     color: #fff;
     padding: 5px;
+}
+.bord
+{
+    border-bottom: thick;
+    border-color: darkgray;
 }
 .iconColor
 {
@@ -58,6 +67,24 @@ SecondColor : #ffbf00
 /*End NavBarr */
 
 /*Start Slider */ 
+.slideshow-container 
+{
+    position: relative;
+}
+.mySlides 
+{
+    display: none
+}
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
 .slide
 {
     margin:1px;
@@ -167,9 +194,16 @@ SecondColor : #ffbf00
     bottom: 0;
     background-color: #fff;
 }
+
 .slider-item
 {
     padding:15px; 
+    position: relative; 
+    overflow: hidden;
+}
+.slide
+{
+
     position: relative; 
     overflow: hidden;
 }
@@ -185,6 +219,74 @@ SecondColor : #ffbf00
     background-position: center;
 
 }
+.img-slider
+{
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+.title-slider
+{
+    background-color: rgb(17, 17, 17);
+    font-family: Raleway;
+    color: rgb(255, 255, 255);
+    white-space: nowrap;
+    line-height: 20px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 30px;
+    padding: 10px 15px;
+    
+
+}
+.description-slider1
+{
+    font-family: Raleway;
+    color: rgb(255, 255, 255);
+    white-space: nowrap;
+    text-align: left;
+    line-height: 40px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 50px;
+    left: 35px;
+}
+.description-slider2
+{
+    width: 60% ;
+    font-family: Raleway;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    white-space: normal;
+    float:left;
+    text-align: left;
+    line-height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    left: 35px;
+}
+.btn-slider
+{
+    left: 35px;
+    background-color: rgb(17, 17, 17);
+    font-family: Roboto;
+    cursor: pointer;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    white-space: nowrap;
+    text-align: left;
+    line-height: 17px;
+    letter-spacing: 0px;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 15px 40px;
+    border-radius: 30px;
+    border-width: 0px;
+    border-style: none;
+}
 .post-contint
 {
     z-index: 2;
@@ -195,15 +297,17 @@ SecondColor : #ffbf00
     bottom: 0;
     right: 0;
 }
-.post-content
+
+.post-slide
 {
+    left: 35px;
+    top: 120px;
     z-index: 2;
-    width: 90%;
+    width: 100%;
+    height: 100%;
     padding: 30px;
-    background: #fff;
     position: absolute;
-    bottom: 0;
-    right: 0;
+   
 }
 .email-input
 {
@@ -280,4 +384,67 @@ SecondColor : #ffbf00
 {
     color: #686969;
     margin-right:10px;
+}
+.card-body
+{
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 2px !important;
+    text-align: center;
+    background: #fff;
+    position: relative;
+    z-index: 3;
+    border: 1px solid #d0d0d0
+}
+.gr-icon
+{
+    color:rgba(136, 138, 138, 0.726);
+}
+.checked
+ {
+    color: orange;
+}
+.star-rating
+{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    margin-top: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+
+}
+.price
+{
+    
+    position: absolute;
+    top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #ffbf00 ;
+    text-align: left;
+}
+.card-title
+{
+  
+    position: relative;
+    padding-right: 0;
+    margin-top:  45px;
+    color: rgb(61, 61, 61);
+    text-align: left;
+}
+.card-title:hover
+{
+    color: #ffbf00 ;
+}
+a, a:hover, a.active
+{
+    color: inherit;
+    text-decoration: none;
+    outline: none;
+}
+.card-img-top
+{
+    box-shadow: 0 0 5px grey;
 }
